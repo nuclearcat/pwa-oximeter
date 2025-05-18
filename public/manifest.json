@@ -1,20 +1,34 @@
 {
   "name": "Oximeter PWA",
   "short_name": "Oximeter",
-  "start_url": ".",
+  "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "background_color": "#f3f4f6",
   "theme_color": "#059669",
+  "description": "Monitor blood oxygen levels and heart rate offline with your oximeter device",
+  "orientation": "portrait-primary",
   "icons": [
     {
-      "src": "/icon-192.png",
+      "src": "/icon-192.png.svg",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
     },
     {
-      "src": "/icon-512.png",
+      "src": "/icon-512.png.svg",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
     }
-  ]
+  ],
+  "screenshots": [],
+  "shortcuts": [],
+  "categories": ["health", "medical"],
+  "lang": "en-US",
+  "dir": "ltr",
+  "prefer_related_applications": false,
+  "related_applications": [],
+  "iarc_rating_id": "",
+  "offline_enabled": true
 }

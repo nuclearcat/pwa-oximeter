@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Offline - Oximeter PWA</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: #f3f4f6;
+      color: #1f2937;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+    .container {
+      max-width: 90%;
+      padding: 2rem;
+      background-color: white;
+      border-radius: 0.5rem;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      color: #059669;
+      margin-bottom: 1rem;
+    }
+    .icon {
+      font-size: 4rem;
+      margin-bottom: 1rem;
+      color: #059669;
+    }
+    .button {
+      background-color: #059669;
+      color: white;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      border-radius: 0.25rem;
+      font-weight: 500;
+      cursor: pointer;
+      margin-top: 1.5rem;
+      text-decoration: none;
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="icon">📶</div>
+    <h1>You're Offline</h1>
+    <p>The Oximeter PWA app is installed and works offline, but this specific page is not cached.</p>
+    <p>Your oximeter data will still be saved locally and will sync when you're back online.</p>
+    <a href="/" class="button">Go to Home Page</a>
+  </div>
+</body>
+</html>
